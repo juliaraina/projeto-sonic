@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="shortcut icon" href="./src/imagens/sonic.ico" type="image/x-icon">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
+	
+	<link rel="stylesheet" href="./src/css/reset.css">
+	<link rel="stylesheet" href="./src/css/style.css">
+	<link rel="stylesheet" href="./src/css/responsivo.css">
+
+	<title>Sonic - The Hedgehog</title>
+</head>
+
+<body>
+
+	<div class="fundo-video">
+		<video class="video" autoplay loop muted>
+			<source src="./src/video/video-sonic.mp4" type="video/mp4">
+		</video>
+	</div>
+
+	<header class="cabecalho">
+		<a>
+			<img class="logo" src="./src/imagens/logo-sonic.png" alt="logo do Sonic">
+		</a>
+		<nav>
+			<ul class="menu">
+				<li><a href="#">Home</a></li>
+				<li><a href="https://shop.sega.com/">Shop Now</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main class="container">
+		<div class="informacoes">
+			<img class="imagem-titulo" src="./src/imagens/titulo.png" alt="imagem do título do jogo - Sonic the Hedgehog">
+			<p class="descricao">Sonic the Hedgehog é uma série de jogos e uma franquia multimídia japonesa criada pelo Sonic Team e produzida pela Sega. A franquia segue Sonic, cuja vida pacífica é sempre interrompida pelo antagonista principal da série, Dr. Eggman (nome real: Dr. Ivo Robotnik). Sonic - normalmente junto de um de seus aliados, como Tails e Knuckles - se aventuram para parar o vilão insano e seus planos para dominação mundial. O primeiro jogo da série Sonic, lançado em 1991, foi concebido pela divisão da Sega, Sonic Team após um pedido para um novo mascote. O título foi um sucesso, e foi renovado para várias sequelas, que levaram a Sega a liderança no rumo dos consoles de video-game da era 16-bit do começo até a metade dos anos 90. Atualmente, é uma das franquias mais famosas e mais lucrativas da indústria dos videogames.</p>
+			<button class="botao">Veja a evolução</button>
+		</div>
+		<img class="sonic" src="./src/imagens/sonic_gamehall.png">
+
+		<div class="modal">
+			<div class="conteudo-modal">
+				 <span class="fechar-modal">X</span>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/mzeklf_YsXc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</div>
+		</div>
+	</main>
+	<script src="./src/js/index.js"></script>
+</body>
+</html>
